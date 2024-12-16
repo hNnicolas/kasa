@@ -1,0 +1,109 @@
+.logementContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.logementDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logementHeader {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.logementTagContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logementTag {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.logementRating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+}
+
+.logementTitle h3 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6060;
+    margin: 0;
+}
+
+.logementTitle p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6060;
+    margin: 0;
+}
+
+.logementDescription {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 51px;
+}
+
+.logementDescription .dropdown {
+    width: 45%;
+    margin: 0;
+}
+
+@media (max-width: 426px) {
+    .logementContainer {
+        width: 90%;
+    }
+    .logementDetails  {
+        flex-direction: column;
+    }
+    .logementHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logementTag {
+        margin: 10px 0;
+    }
+    .logementRating {
+        font-size: 18px;
+        gap: 5px;
+    }
+    .logementRatingContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logementRatingContainer .host {
+        order: 1;
+    }
+    .logementDescription {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .logementDescription .dropdown {
+        width: 100%;
+    }
+    .logementTagContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }

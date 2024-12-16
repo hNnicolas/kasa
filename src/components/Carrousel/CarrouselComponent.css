@@ -1,0 +1,60 @@
+.carrouselWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carrouselWrapper img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 15px;
+    object-position: center;
+}
+
+.carrouselWrapper .carrouselButtonLeft {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 42px;
+    background: transparent;
+    color: white;
+}
+
+.carrouselWrapper .carrouselButtonRight {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 42px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.carrouselWrapper .counter {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,0);
+}
+
+@media (max-width: 426px) {
+    .carrouselWrapper img {
+        width: 100%;
+        height: 255px;
+        object-fit: cover;
+        border-radius: 15px;
+        object-position: center;
+    }
+  }

@@ -1,0 +1,47 @@
+.sectionSlogan {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.sectionSlogan img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: blur(0.25px) brightness(0.75);
+    border-radius: 25px;
+}
+
+.sectionSlogan h2 {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 426px) {
+    .sectionSlogan {
+        width: 90%;
+    }
+    .sectionSlogan img {
+        height: 110px;
+    }
+
+    .sectionSlogan h2 {
+        font-size: 24px;
+        line-height: 24px;
+        width: 217px;
+        text-align: left;
+        left: 10px;
+        transform: translate(0, -25%);
+    }
+  }

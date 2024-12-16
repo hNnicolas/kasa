@@ -1,0 +1,37 @@
+.host {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.host img {
+    width: 64px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.host p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    white-space: pre-line;
+    color: #FF6060;
+}
+
+@media (max-width: 426px) {
+    .host {
+        gap: 5px;
+    }
+    .host img {
+        width: 32px;
+    }
+    .host p {
+        font-size: 16px;
+        line-height: 14px;
+    }
+  }
